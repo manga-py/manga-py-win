@@ -5,7 +5,7 @@
 
 $ErrorActionPreference = 'Stop'
 $currdir = Get-Location
-$version = '1.33.1'
+$version = '1.33.2'
 $mangaPyDir = "$currdir\manga-py-$version"
 
 # Modules in these folders will be passed to pyinstaller as --hidden-import https://pyinstaller.readthedocs.io/en/stable/usage.html#cmdoption-hidden-import
